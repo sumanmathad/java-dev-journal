@@ -1,10 +1,14 @@
-package dev.playground;
 
-public class BasicsPractice {
+void main(){
 
-    public static void main(String [] args){
-        System.out.println("Started here");
+    IO.println("Started here");
+    String  name = IO.readln("Enter your name");
+    IO.println("Hello " + name);
+
     }
 
 
-}
+
+
+
+
