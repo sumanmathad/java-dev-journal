@@ -1,6 +1,4 @@
-package dev.variables;
-
-import java.util.Arrays;
+package dev.variables_datatypes;
 
 public class Basics {
 
@@ -13,6 +11,8 @@ public class Basics {
         System.out.print(c);
         System.out.print(c);
     }
+
+
 
 
 }
