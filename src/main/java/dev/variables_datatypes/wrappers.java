@@ -13,6 +13,14 @@ public class wrappers {
 
     }
 
+    String s="01234";
+
+    @Test
+    public void stringIntegerConversions(){
+        System.out.println(Integer.parseInt(s));     // 1234
+        System.out.println(Integer.valueOf(s));      // 1234
+    }
+
 
 
 

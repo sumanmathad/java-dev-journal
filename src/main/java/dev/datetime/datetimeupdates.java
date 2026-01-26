@@ -18,7 +18,7 @@ public class datetimeupdates {
         System.out.println(date.plusYears(2));
         System.out.println(date.plusMonths(2));
 
-
+        System.out.println(date.getMonth());
 
 
     }

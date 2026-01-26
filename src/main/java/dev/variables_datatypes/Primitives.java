@@ -30,6 +30,19 @@ public class Primitives {
     byte c= (byte) (a+b);    //to be casted
 }
 
+@Test
+    public void formatsConversions(){
+
+    int x =022 + 1;
+    int y= 07+1;
+    System.out.println(x);
+    System.out.println(y);
+    System.out.println(Integer.toOctalString(x));
+
+    int l =010 + 04;
+    System.out.println(l);
+
+}
 
 
 
